@@ -1,0 +1,31 @@
+{
+    "navigationBar": {
+        "langSelectorButton": "Language"
+    },
+    "homeCard": {
+        "title": "🌍 Welcome to Country Cards!",
+        "firstParagraph": "This application allows you to search for countries and view detailed information about them.",
+        "secondParagraph": "Just enter a country's name, and you'll receive information such as:",
+        "listElements": [
+            "Official and common name", 
+            "Region and capital city", 
+            "Population and demonyms", 
+            "Main currency", 
+            "National flag and coat of arms", 
+            "Link to the country’s Wikipedia page"
+        ],
+        "thirdParagraph": "You can add multiple countries and remove them individually. The data is fetched from the",
+        "nameOfApiSite": "REST Countries API",
+        "conclusionStart": "Try it out by navigating to the",
+        "conclusionEnd": "page using the menu above!",
+        "langSelectorButton": "Choose Language",
+        "links": [
+            {"text": "Country Cards page", "name": "countryCards"},
+            {"text": "Favorite Cards page", "name": "favoriteCountries"}
+        ]
+    },
+    "countryCards": {
+        "inputField": "Enter a new country name",
+        "addButton": "Add"
+    }
+}

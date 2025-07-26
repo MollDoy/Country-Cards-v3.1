@@ -1,0 +1,62 @@
+.countryImage {
+  height: 100px;
+  width: 150px;
+  border: 1px solid #000000; 
+  border-radius: 4px;
+}
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.card-top {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  position: relative; 
+  padding: 0 16px;
+}
+.card-top .close-btn {
+  position: absolute; 
+}
+.footer-top {
+  position: relative;
+  padding: 0 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-top .close-btn {
+  position: absolute;
+}
+.card {
+  min-width: 300;
+  max-width: 570px;
+}
+#nav .router-link-active {
+    color: rgb(130, 255, 213);
+    border-bottom: 2px solid rgb(130, 255, 213);
+}
+#nav a,
+#foot a {
+  color: white;
+  opacity: 0.7;
+  transition: 0.2 ease color;
+  text-decoration: none;
+}
+#nav a.router-link-active,
+#nav a:hover,
+#foot a:hover {
+  opacity: 1;
+}
+a {
+  color:blue;
+  text-decoration: none;
+}
+a.external-link:hover {
+    color: rgb(2, 124, 12);
+}
+a:hover {
+  color: rgb(34, 0, 185);
+}
