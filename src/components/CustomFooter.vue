@@ -23,7 +23,7 @@
         <v-divider class="my-2" thickness="2" width="50"></v-divider>
 
         <div>
-        {{ currentYear }} — <strong>Vuetify + Vue Router + Vuex</strong><br>
+        {{ currentYear }} — <strong>Vuetify + Vue Router + Vuex + Vue i18n</strong><br>
         <b>Project by MollDoy</b>
         </div>
     </v-footer>
